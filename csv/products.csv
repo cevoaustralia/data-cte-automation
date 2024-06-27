@@ -1,0 +1,11 @@
+product_id,product_name,price,quantity
+1,Mug A,25.00,10
+2,Mug B,30.00,15
+3,Mug C,20.00,8
+4,Bottle X,50.00,12
+5,Bottle Y,45.00,20
+6,Plate Alpha,60.00,5
+7,Plate Beta,55.00,7
+8,Cup 1,35.00,18
+9,Cup 2,40.00,22
+10,Coffee Maker A,20.00,30

@@ -1,0 +1,6 @@
+#local folders
+**/.venv/*
+.python-version
+**.egg-info
+venv/*
+.pytest_cache
