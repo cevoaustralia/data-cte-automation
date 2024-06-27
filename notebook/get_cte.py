@@ -5,6 +5,17 @@ product_csv = "csv/products.csv"
 output_sql = "sql/output.sql"
 
 def get_cte(csv_path, table_name):
+    """
+    Generates a Common Table Expression (CTE) SQL query from a CSV file.
+
+    Args:
+        csv_path (str): The file path to the CSV file.
+        table_name (str): The desired name for the CTE table.
+
+    Returns:
+        str: A CTE SQL query string that can be used to create a temporary table
+             with the data from the CSV file.
+    """
     
     df_csv = pd.read_csv(csv_path)
     # Determining the Column Names 
